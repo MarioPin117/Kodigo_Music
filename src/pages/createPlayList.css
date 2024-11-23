@@ -1,0 +1,124 @@
+.create-playlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .form-container {
+    flex: 1 1 40%;
+    background-color: var(--card-bg-color);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .song-selection {
+    margin-top: 20px;
+  }
+  
+  .songs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .song-button {
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-button.selected {
+    background-color: var(--primary-color);
+  }
+  
+  .song-button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .warning-message {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .create-button {
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .playlists-container {
+    flex: 1 1 50%;
+    background-color: var(--card-bg-color);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .playlist-card {
+    background-color: var(--card-bg-color);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .playlist-card h3 {
+    color: var(--primary-color);
+  }
+  
+  .playlist-card ul {
+    padding-left: 20px;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .navigation-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }  
